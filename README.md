@@ -38,17 +38,6 @@ Compile the Java source files. For example, if your source files are in the `src
 
 This command compiles the Java files in the generator package and places the .class files into a bin directory.
 
-## Project Structure
-
-PasswordGenerator/
-├── src/
-│   └── generator/
-│       ├── Generator.java    // Core logic for generating passwords
-│       └── TUI.java          // CLI-based user interface for password generation
-├── bin/                    // Compiled .class files
-└── README.md               // Project documentation
-
-
 ## Usage
 - General Use Option:
   - When prompted, select option 1 to generate a default password with pre-configured parameters.
